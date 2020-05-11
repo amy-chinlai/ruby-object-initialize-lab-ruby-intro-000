@@ -14,11 +14,10 @@ class Dog
 
 	def breed=(dogs_breed)
 		@breed=dogs_breed
-		@breed="Mutt"
 	end
 
 	def breed
-		@breed
+		@breed="Mutt"
 	end
 
 end
